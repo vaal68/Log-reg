@@ -22,7 +22,6 @@ public class DB extends DBConnection {
     }
 
     public void checkDB() {
-        profile = new ArrayList<>();
         setProfile(super.getUser());
     }
 
