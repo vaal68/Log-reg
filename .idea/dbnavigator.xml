@@ -73,10 +73,10 @@
           <description value="" />
           <database-type value="MYSQL" />
           <config-type value="BASIC" />
-          <database-version value="9999.0" />
+          <database-version value="8.0" />
           <driver-source value="EXTERNAL" />
-          <driver-library value="H:\Java\Login.Reg\.idea\libraries" />
-          <driver value="" />
+          <driver-library value="H:\Java\Login.Reg\mysql-connector-java-8.0.28\mysql-connector-java-8.0.28.jar" />
+          <driver value="com.mysql.cj.jdbc.Driver" />
           <url-type value="DATABASE" />
           <host value="localhost" />
           <port value="3306" />
