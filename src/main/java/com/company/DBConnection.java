@@ -47,7 +47,6 @@ public class DBConnection extends ConfigsDB{
                     user.setPass(resSet.getString(Const.USERS_PASS));
                     String login = user.getLogin() + user.getPass();
                     profile1.add(login);
-                    System.out.println(login);
                 }
 
             } catch (SQLException | ClassNotFoundException e) {
